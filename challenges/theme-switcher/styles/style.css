@@ -1,0 +1,56 @@
+:root {
+	--dark: #292C35;
+	--light: #F1F1F1;
+	--label: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: var(--light);
+    transition: background-color .5s ease-out;
+}
+
+.toggle {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: .3rem;
+    width: 235px;
+    height: 102px;
+    
+    background-color: var(--label);
+    border-radius: 100px;
+}
+
+.ball {
+    position: absolute;
+    right: 140px;
+
+    width: 90px;
+    height: 90px;
+
+    background-color: var(--light);
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: right .5s ease-out;
+}
+
+
+.icon {
+    width: 90px;
+    height: 90px;
+}
