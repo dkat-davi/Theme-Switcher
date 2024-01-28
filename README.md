@@ -3,3 +3,7 @@
 
 <h2><a href="https://dkat-davi.github.io/Rocketseat-Challenges/challenges/theme-switcher" target="_blank">Theme Switcher</a></h2>
 <p>A webpage with a button to change the theme and the theme is saved in localStorage</p>
+
+<div>
+    <img src="./assets/theme.gif">
+</div>
